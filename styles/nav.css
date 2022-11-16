@@ -1,0 +1,84 @@
+.navigation-wrapper {
+  background-color: black;
+  height: 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-wrapper > .nav-left-column {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-wrapper > .nav-left-column > .logo {
+  width: 15em;
+  padding-left: 1em;
+  padding-right: 2em;
+}
+
+.navigation-wrapper > .nav-left-column > .navlinks-wrapper {
+  font-size: 1.4em;
+}
+
+.navigation-wrapper > .nav-left-column > .navlinks-wrapper > .explore {
+  color: yellow;
+  text-transform: uppercase;
+}
+
+.navigation-wrapper > .nav-left-column > .navlinks-wrapper > .navlinks {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-wrapper
+  > .nav-left-column
+  > .navlinks-wrapper
+  > .navlinks
+  > .nav-link
+  a {
+  margin-right: 1em;
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.navigation-wrapper
+  > .nav-left-column
+  > .navlinks-wrapper
+  > .navlinks
+  > .nav-link
+  > .dropdown {
+  margin-left: 1em;
+  color: grey;
+}
+
+.navigation-wrapper > .nav-right-column {
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.navigation-wrapper > .nav-right-column button {
+  background-color: rgb(51, 52, 56);
+  color: white;
+  font-size: 1.4em;
+  padding: 0.5em 1.5em;
+  border-radius: 3px;
+  font-family: "Lato", sans-serif;
+  border: none;
+}
+
+.navigation-wrapper > .nav-right-column > .create > .btn i {
+  color: #44b86d;
+}
+
+.navigation-wrapper > .nav-right-column > .search i {
+  color: grey;
+  font-size: 2em;
+  padding: 0.7em;
+}
+
+.navigation-wrapper > .nav-right-column > .signup button {
+  margin-left: 1em;
+}

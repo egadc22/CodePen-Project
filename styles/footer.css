@@ -1,0 +1,27 @@
+.footer {
+  background-color: #36383f;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer > .square-grid {
+  color: white;
+  border: 2px solid gray;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer > .square-grid > .square {
+  font-size: 1.4em;
+}
+
+.footer > .square-grid > .square .highlighted{
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-left: 0.1em;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: -2px;
+}

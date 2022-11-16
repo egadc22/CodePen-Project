@@ -1,0 +1,78 @@
+@media (max-width: 615px) {
+  .navigation-wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .navigation-wrapper > .nav-left-column {
+    margin-top: 1em;
+    flex-direction: column;
+  }
+  .navigation-wrapper > .nav-left-column > .navlinks-wrapper > .navlinks {
+    flex-direction: column;
+    margin-top: 1em;
+  }
+  .navigation-wrapper
+    > .nav-left-column
+    > .navlinks-wrapper
+    > .navlinks
+    > .nav-link {
+    margin-top: 1em;
+  }
+
+  .navigation-wrapper > .nav-right-column {
+    flex-direction: column;
+    margin-top: 1em;
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 2em;
+  }
+
+  .navigation-wrapper > .nav-right-column > .create,
+  .navigation-wrapper > .nav-right-column > .login,
+  .navigation-wrapper > .nav-right-column > .signup {
+    width: 80%;
+    margin-top: 1em;
+  }
+  .navigation-wrapper > .nav-right-column > .signup > .btn {
+    margin-left: 0;
+  }
+
+  .navigation-wrapper > .nav-right-column > .create > .btn,
+  .navigation-wrapper > .nav-right-column > .login > .btn,
+  .navigation-wrapper > .nav-right-column > .signup > .btn {
+    width: 100%;
+  }
+
+  .main-content-wrapper {
+    flex-direction: column;
+    height: auto;
+    padding-top: 2em;
+  }
+
+  .main-content-wrapper > .description-wrapper > .content-buttons {
+    flex-direction: column;
+  }
+
+  .main-content-wrapper
+    > .description-wrapper
+    > .content-buttons
+    > .learn-btn
+    > .btn {
+    margin-left: 0;
+  }
+
+  .main-content-wrapper > .projects-wrapper > .projects {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .main-content-wrapper > .projects-wrapper > .project-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}
